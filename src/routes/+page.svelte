@@ -1,7 +1,19 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import Container from "$lib/components/container.svelte";
+</script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
+<div class="h-full flex flex-col">
+	<Container>
+		top
+	</Container>
+	<Container class="flex-auto">
+		center
+	</Container>
+	<Container>
+		bottom
+	</Container>
+</div>
+	<!-- <div class="space-y-5">
 		<h1 class="h1">Let's get cracking bones!</h1>
 		<p>Start by exploring:</p>
 		<ul>
@@ -12,4 +24,4 @@
 			</li>
 		</ul>
 	</div>
-</div>
+</Container> -->
